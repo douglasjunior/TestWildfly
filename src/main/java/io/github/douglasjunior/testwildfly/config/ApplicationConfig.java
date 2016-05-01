@@ -1,4 +1,4 @@
-package org.netbeans.rest.application.config;
+package io.github.douglasjunior.testwildfly.config;
 
 import io.github.douglasjunior.testwildfly.service.ProductResource;
 import java.util.Set;

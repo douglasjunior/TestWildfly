@@ -5,6 +5,7 @@ import io.github.douglasjunior.testwildfly.model.ProductDao;
 import java.util.List;
 import javax.ejb.Schedule;
 import javax.ejb.Singleton;
+import javax.ejb.Startup;
 import javax.inject.Inject;
 
 /**
@@ -12,6 +13,7 @@ import javax.inject.Inject;
  * @author douglas
  */
 @Singleton
+@Startup
 public class ProductJob {
 
     @Inject

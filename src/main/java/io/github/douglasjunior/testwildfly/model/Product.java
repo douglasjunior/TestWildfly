@@ -88,7 +88,7 @@ public class Product implements Serializable {
 
     @Override
     public String toString() {
-        return "io.github.douglasjunior.testwildfly.Product[ id=" + id + " name=" + name + " ] ";
+        return "Product[ id=" + id + " name=" + name + " ] ";
     }
 
 }
